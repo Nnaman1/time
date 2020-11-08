@@ -1,3 +1,6 @@
+body {
+  height: 100%;
+}
 .card {
   width: 210px;
   border: 1px solid grey;
@@ -7,6 +10,30 @@
 
 .card img {
   width: 200px;
-  border: 5px solid pink;
+  border: 5px solid blue;
   border-radius: 50%;
+}
+
+.card h1 {
+  padding-left: 30px;
+}
+
+.auto {
+  border: 2px dotted green;
+  margin: auto;
+  margin-top: 10%;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.auto .box {
+  width: 50%;
+  height: 15vh;
+  background-color: hotpink;
+  
+  margin: 10px;
+  
 }
