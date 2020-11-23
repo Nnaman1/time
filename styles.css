@@ -1,4 +1,3 @@
-.header {
-  display: flex;
-  flex-direction: row;
+body {
+  background-color: black;
 }
