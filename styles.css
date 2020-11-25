@@ -1,3 +1,14 @@
+
+
+.navbar .logo {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.logo-text{
+  color:#00b16a;
+}
+
 .container {
   margin: auto;
   width: 75%;
@@ -5,22 +16,57 @@
   letter-spacing: normal;
 }
 
-.container h1 {
+.container h2 {
   text-align: center;
   margin-bottom: 0.9375rem;
 }
 
-.container-fluid {
-  background-color: rebeccapurple;
-  height: 90px;
+.container .icon {
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+.icon i {
+  color: #008751
 }
 
-@media screen and (max-width: 600px) {
+
+
+.footer {
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 20vh;
+}
+
+.footer a  {
+  color: #fff;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #008751;
+}
+
+.footer .social > * {
+  margin-right: 30px;
+}
+
+
+
+@media(max-width: 770px) {
   .container {
     margin: auto 2.5rem;
     width: 85%;
     padding: 0;
     letter-spacing: normal;
   }
+  
   
 }
