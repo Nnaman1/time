@@ -1,7 +1,3 @@
-p > button {
-  background-color: brown;
-}
-
-body p {
-  background-color: brown;
+main, p {
+  background-color: Blue;
 }
