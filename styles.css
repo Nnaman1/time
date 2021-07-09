@@ -4,9 +4,16 @@
 
 #Sign-In-Btn {
   background-color: blueviolet;
-  height: 50px;
 }
 
 .main-content > a {
   text-decoration: non;
+}
+
+.main-content + p {
+  background-color: chartreuse;
+}
+
+input[type="password"] {
+  color: pink;
 }
