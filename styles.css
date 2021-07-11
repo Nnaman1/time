@@ -14,6 +14,17 @@
   background-color: chartreuse;
 }
 
-input[type="password"] {
-  color: pink;
+img {
+  height: 250px;
+  width: 250px;
+}
+
+img[title="Kobe"] {
+  border: solid 9px rebeccapurple;
+}
+p:hover {
+  background: pink;
+}
+p:nth-of-type(2n) {
+  background: red;
 }
