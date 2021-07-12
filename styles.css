@@ -1,40 +1,6 @@
-.main-content button {
-  background-color: blue;
-}
-
-#Sign-In-Btn {
-  background-color: blueviolet;
-}
-
-.main-content > a {
-  text-decoration: non;
-}
-
-.main-content + p {
-  background-color: chartreuse;
-}
-
-img {
-  height: 250px;
-  width: 250px;
-}
-
-img[title="Kobe"] {
-  border: solid 9px rebeccapurple;
-}
-p:hover {
-  background: pink;
-}
-p:nth-of-type(2n) {
-  background: red;
-}
-
-h2::first-letter {
-  font-size: 80px;
-}
-p::first-line {
-  color: red;
-}
-p:nth-of-type(2n) {
-  background-color: royalblue;
+p {
+  background-color: turquoise;
+  width: 40%;
+  display: inline-block;
+  margin: 0;
 }
